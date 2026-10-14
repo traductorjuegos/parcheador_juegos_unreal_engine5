@@ -5,7 +5,6 @@ El **Parcheador Autónomo (`Parcheador_multiengine.exe`)** (versión **v0.3**) e
 Toma como entrada exclusivamente un paquete **`.zip`** que contiene la traducción y cualquier recurso gráfico o archivo complementario que requiera el juego.
 
 ---
-
 ## 📋 Índice
 1. [Requisitos Previos](#1-requisitos-previos)
 2. [Estructura del Paquete ZIP de Traducción](#2-estructura-del-paquete-zip-de-traducción)
