@@ -1,6 +1,6 @@
 # 📖 Manual de Uso - Parcheador Multiengine (Unreal Engine / RPG Maker)
 
-El **Parcheador Autónomo (`Parcheador_multiengine.exe`)** (versión **v0.2**) es una herramienta portátil diseñada para aplicar traducciones en juegos desarrollados tanto con **Unreal Engine (4 y 5)** como con **RPG Maker (MZ y MV)** de forma **100% independiente** (no requiere tener instalado Python, LM Studio ni herramientas externas en el equipo).
+El **Parcheador Autónomo (`Parcheador_multiengine.exe`)** (versión **v0.3**) es una herramienta portátil diseñada para aplicar traducciones en juegos desarrollados tanto con **Unreal Engine (4 y 5)** como con **RPG Maker (MZ y MV)** de forma **100% independiente** (no requiere tener instalado Python, LM Studio ni herramientas externas en el equipo).
 
 Toma como entrada exclusivamente un paquete **`.zip`** que contiene la traducción y cualquier recurso gráfico o archivo complementario que requiera el juego.
 
@@ -81,7 +81,7 @@ Al ejecutar `Parcheador_multiengine.exe`, la interfaz se muestra limpia y compac
 
 ```
 +-------------------------------------------------------------------------------+
-|  ⚡ Parcheador Multiengine (Unreal Engine / RPG Maker)                   v0.2 |
+|  �?Parcheador Multiengine (Unreal Engine / RPG Maker)                   v0.3 |
 |  Aplica traducciones y recursos a Unreal Engine y RPG Maker desde paquetes ZIP|
 +-------------------------------------------------------------------------------+
 |  📦 Paquete de Traducción (*.zip):                                            |
@@ -92,7 +92,7 @@ Al ejecutar `Parcheador_multiengine.exe`, la interfaz se muestra limpia y compac
 |                                                                               |
 |  (La clave AES y las opciones aparecen dinámicamente al leer el paquete ZIP)  |
 |                                                                               |
-|  [ ⚡ PARCHEAR ]            [ ▶ JUGAR ]            [ ↺ Restaurar Original ]   |
+|  [ �?PARCHEAR ]            [ �?JUGAR ]            [ �?Restaurar Original ]   |
 |                                                                               |
 |  Consola de Registro:                                                         |
 |  ============================================================================ |
@@ -120,14 +120,14 @@ Al ejecutar `Parcheador_multiengine.exe`, la interfaz se muestra limpia y compac
 1. Abre **`Parcheador_multiengine.exe`**.
 2. Selecciona el archivo **`.zip`** de traducción y la **Carpeta del Juego**.
 3. Revisa las opciones específicas que hayan aparecido para el motor de tu juego.
-4. Haz clic en **`⚡ PARCHEAR`**.
+4. Haz clic en **`�?PARCHEAR`**.
 5. El registro mostrará el avance en tiempo real hasta confirmar la inyección exitosa de textos y recursos.
 
 ---
 
 ## 7. Cómo Iniciar el Juego en Español
 
-* **Desde la propia interfaz:** Haz clic en el botón **`▶ JUGAR`**. El parcheador iniciará automáticamente el ejecutable del juego (`Game.exe`, `nw.exe` o el binario de Unreal Engine).
+* **Desde la propia interfaz:** Haz clic en el botón **`�?JUGAR`**. El parcheador iniciará automáticamente el ejecutable del juego (`Game.exe`, `nw.exe` o el binario de Unreal Engine).
 * **Desde el explorador de archivos:**
   * **RPG Maker:** Ejecuta `Game.exe`.
   * **Unreal Engine:** Ejecuta **`Jugar_en_Espanol.bat`** o el ejecutable principal.
@@ -138,7 +138,7 @@ Al ejecutar `Parcheador_multiengine.exe`, la interfaz se muestra limpia y compac
 
 1. Abre **`Parcheador_multiengine.exe`**.
 2. Selecciona la carpeta del juego (y opcionalmente el paquete ZIP).
-3. Haz clic en el botón **`↺ Restaurar Original`**.
+3. Haz clic en el botón **`�?Restaurar Original`**.
 4. El programa:
    - **RPG Maker:** Restaura los archivos `data/*.json`, `js/plugins.js` y las imágenes originales desde `data/backup_original/`, eliminando los archivos nuevos que se hubieran añadido.
    - **Unreal Engine:** Elimina los archivos mod (`.pak`, `.ucas`, `.utoc`) de `Paks/`, revierte los `.ini` y elimina los accesos directos `.bat`.
